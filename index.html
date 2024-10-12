@@ -28,13 +28,13 @@
                     <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">Skills</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#">Projects</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li>
-                    <a href="#" class="button">Contact Me</a>
+                    <a href="mailto:wenbopeng00@gmail.com" class="button">Contact Me</a>
                 </li>
             </ul>
             <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
@@ -64,10 +64,10 @@
                         </p>
 
                         <div class="call-to-action">
-                            <a href="#" class="button black">
+                            <a href="./Wenbo Peng SDE Resume.pdf" target="_blank" class="button black">
                                 View Resume
                             </a>
-                            <a href="#" class="button white">
+                            <a href="mailto:wenbopeng00@gmail.com" class="button white">
                                 Contact Me
                             </a>
 
@@ -140,7 +140,7 @@
 
             </section>
 
-            <section class="skills container">
+            <section id="skills" class="skills container">
                 <h2>
                     <small>About Me</small>
                     Skills
@@ -278,7 +278,7 @@
 
             </section>
 
-            <section class="bento container">
+            <section id="projects" class="bento container">
                 <h2>
                     <small>
                         Previous
@@ -287,7 +287,7 @@
                 </h2>
                 <div class="bento-grid">
                     <a href="#" class="bento-item">
-                        1
+                        <img src="./imgs/eCommerceApp.png" alt="eCommerceApp" width="100%" />
                     </a>
                     <a href="#" class="bento-item">
                         <img src="./imgs/Project management.png" alt="Project Management System" width="100%" />
@@ -305,6 +305,92 @@
                 </div>
 
             </section>
+
+            <section class="chatbot container">
+                <h2>
+                    <small>
+                        Talk to <menu></menu>
+                    </small>
+                    chatbot
+                </h2>
+                <div class="chatbot-blue">
+                    <div class="chat-info">
+                        <h3>Azure AI chatbot</h3>
+                        <p>
+                        I've put together a chatbot here which 
+                        knows all my skills, work Experience and 
+                        has a copy of my Resume. You can use it
+                        to ask questions about me to get a better
+                        idea of who I am and what I've done.
+                        </p>
+                        <p>
+                        You can also download my resume here if 
+                        you want to take a look at it, I'm currently 
+                        looking for opportunities so if you have a 
+                        position you think I'd be a good fit for,
+                        please click the Contact Me button below to 
+                        get in touch!
+                        </p>
+                        <p>
+                        I'd love to connect and discuss how my skills 
+                        and experiences can contribute to your team's success!
+                        </p>
+                        <a href="./Wenbo Peng SDE Resume.pdf" target="_blank" class="button black">
+                            Download Resume
+                        </a>
+                        <a href="emailto:wenbopeng00@gmail.com" target="_blank" class="button white">
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="chat-box">
+                        <div class="scroll-area">
+                            <ul id="chat-log">
+                                <li>
+                                    <span class="avatar bot">AI</span>
+
+                                    <div class="message">
+                                        Hi, I'm a friendly chatbot that 
+                                        lets you interactive with this
+                                        Portfoilo and resume.
+                                        How can I help?
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="avatar bot">User</span>
+
+                                    <div class="message">
+                                        I have a question
+                                    </div>
+                                </li>
+                                
+                            </ul>
+
+                        </div>
+                        <div class="chat-message">
+                            <input type="text" 
+                            placeholder="Hey Wenbo, What skills are you best at?" >
+                            
+                            <button class="button black">Send</button>
+
+                        </div>
+
+
+                    </div>
+
+                </div>       
+
+            </section>
        </main>
   </body>
+
+  <footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Wenbo Peng</p>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#top">Back to Top</a></li>
+        </ul>
+    </div>
+  </footer>
+
 </html>
